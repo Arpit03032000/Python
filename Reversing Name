@@ -1,0 +1,7 @@
+s = input("Enter A Name--> ")
+reversedString=[]
+index = len(s) 
+while index > 0: 
+    reversedString += s[ index - 1 ] 
+    index = index - 1 
+print(reversedString) 
