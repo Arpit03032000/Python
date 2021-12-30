@@ -1,0 +1,9 @@
+t = 0 
+
+# creating a list
+
+list = [110,51,7,1,3]
+for i in range(0 , len(list)):#Itetrate each element in list and them in variable total
+    t = t + list[i]
+                   
+print("Sum Of All The Number in Given List: " , t)    #printing total value  
