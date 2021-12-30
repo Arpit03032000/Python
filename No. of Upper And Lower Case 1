@@ -1,0 +1,10 @@
+s = 'The quick Brow Box'
+u, l = 0,0
+for i in s:
+    if (i>='a' and i<='z'):
+        l=l+1
+    if (i>= 'A' and i<='Z'):
+        u=u+1
+        
+print('Lower Case Characters: ' , l)
+print('Upper Case Characters:' , u)
