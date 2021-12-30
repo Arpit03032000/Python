@@ -1,0 +1,19 @@
+def UL(string):
+    u = 0
+    l = 0
+    for i in range(len(string)):
+        
+        #For lower letters
+        
+        if (ord(string[i]) >= 97 and ord(string[i]) <= 122):
+            l += 1
+            
+        # For upper letters
+        
+        elif (ord(string[i]) >= 65 and ord(string[i]) <= 90):
+            u += 1
+            
+print('Lower Case Characters = %s' %l ,'Upper Case Characters = %s' %u )   
+
+string = 'The quick Brow Box'
+UL(string)
