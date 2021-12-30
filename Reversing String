@@ -1,0 +1,8 @@
+def reverse(s):
+    if len(s) == 0:
+         return s
+    else:
+        return reverse(s[1:]) + s[0]
+s ="abcd1234"
+print("The Reversed String Is: " , end="")
+print(reverse(s))
